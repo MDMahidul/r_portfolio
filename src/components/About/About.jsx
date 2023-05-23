@@ -1,9 +1,88 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
+import Propic from '/pro-pic.jpg';
+import './About.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload,faMotorcycle,faPlane,faPersonHiking,faCode,faFilm,faMusic } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
 
 const About = () => {
+   /*  const [isPageLoaded, setPageLoaded] = useState(false); */
+   
+
+    useEffect(() => {
+        AOS.init({
+             easing: 'ease-in-sine',
+            duration: 1000,
+            anchorPlacement: 'top-bottom' ,
+            once: true,
+        });
+    }, []);
+
     return (
-        <div className=' max-w-screen-xl mx-auto'>
-            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam totam aut voluptatibus dolor beatae dolores rem quae eius nesciunt. Libero animi perferendis quisquam inventore numquam ea eius enim facilis hic sit nulla ut excepturi, odio, veniam, quae molestias aliquid fugiat exercitationem est sequi? Corporis reiciendis cum nobis beatae, ipsum suscipit dolores consectetur. Eveniet suscipit culpa sunt aperiam alias ducimus ut minima nisi, obcaecati excepturi neque sit. Sapiente alias fugiat voluptatum sequi, ipsum recusandae molestias minima, nihil esse quis iure temporibus doloremque dolores accusamus deleniti nostrum quam aliquid animi repellat natus! Possimus ipsa suscipit magni quaerat, aspernatur maxime quas corporis exercitationem inventore, optio accusamus obcaecati? Saepe, magni autem ipsum asperiores nostrum quasi sed rerum esse dolores obcaecati aut quae odio architecto velit? Eveniet placeat distinctio consequuntur doloribus animi laboriosam tenetur consectetur incidunt, exercitationem eligendi accusantium provident maxime quisquam impedit, reiciendis sint rerum eos fugiat doloremque error corrupti voluptas odit quam. Enim, nihil beatae. Debitis incidunt esse, explicabo praesentium doloribus commodi temporibus corporis numquam. Doloremque vero distinctio alias a quas dignissimos error doloribus facere ducimus, sunt esse adipisci architecto ipsum. Corporis, nobis, fugit recusandae vitae aliquid ea, sit facilis ad quaerat iusto modi rerum iste vel obcaecati vero nemo deserunt. Iure animi placeat soluta aspernatur. Dolore error cum quo sunt minus beatae et optio tenetur ea debitis, laudantium voluptates ut omnis libero minima ad harum officiis assumenda! Vitae rem molestias aliquam in, sequi voluptas eaque? Dolores saepe optio, quidem numquam officiis nisi eum laborum, vel dolor sequi provident odit ratione quaerat rem, maxime est? Quaerat repellendus magni maxime eaque dolor perspiciatis aspernatur minus, amet minima tenetur, voluptatem dolorum tempore illum libero sunt! Debitis possimus error doloribus, eum repellat, id deserunt voluptatem officiis atque exercitationem, maiores consequuntur vel eos dignissimos praesentium iure ex nisi vitae enim aspernatur voluptates! Sit non numquam et aspernatur placeat amet cumque nesciunt quia, facere at alias autem quam asperiores exercitationem nisi debitis eveniet necessitatibus explicabo. Placeat consectetur soluta fugiat molestias quae itaque obcaecati est, voluptatum autem ipsam harum sapiente pariatur suscipit laboriosam asperiores incidunt neque alias eos quam excepturi quo facere delectus dolorem. Rem voluptatibus facilis ipsam nobis vitae voluptatem, a tempora aperiam repellat, quasi, molestiae autem accusantium quod soluta temporibus perspiciatis odio blanditiis minima dolorem! Vitae reiciendis quia aliquam modi laborum incidunt veniam repudiandae dicta tenetur, eum reprehenderit nemo porro quidem repellat repellendus ipsa molestias dignissimos officia! Repudiandae ad fuga assumenda et animi perspiciatis dolore, nihil at veniam deserunt. Reprehenderit placeat recusandae ipsa atque porro aliquam assumenda magni explicabo iure adipisci incidunt libero consequatur laboriosam, odit sint. Obcaecati quisquam laboriosam adipisci iusto, exercitationem minima vitae earum nam? Enim, ex accusantium necessitatibus quo quae distinctio nulla a dolore sunt quam? Dignissimos eos ex in delectus magni, repellendus ipsum assumenda, aperiam, deleniti perferendis cupiditate temporibus veritatis odit. Corrupti hic amet itaque repellendus, et aliquam voluptatum? Commodi cumque quo molestiae et atque ducimus quia doloremque. Minima quibusdam laborum saepe sit ea vel provident repellat? Consectetur labore, rem atque sapiente, ducimus voluptas voluptatem, ullam nesciunt explicabo in consequuntur voluptatibus temporibus!</h1>
+        <div className='bg-zinc-800 pb-10'>
+           <div className=' max-w-screen-xl  mx-auto'>
+                <div className="about-thum-area">
+                    <div className="grid lg:grid-cols-2 pt-44  md:pl-10 lg:pl-0 pl-6">
+                        <div data-aos='fade-right'>
+                            <div className='about-img' >
+                                <img className='lg:h-96 lg:w-[365px] h-[365px]' src={Propic} alt="" />
+                            </div>
+                            <div className='resume-btn lg:ml-20 '><a className='hover:scale-105 transition-transform' href="#"><FontAwesomeIcon className='text-white mr-2'  icon={faDownload} />Download Resume</a></div>
+                        </div>
+                        <div  className='about-details mt-20 lg:mt-[-65px]' data-aos='fade-left'>
+                            <h2 className='section-title mb-4 text-5xl'>ABOUT ME</h2>
+                            <p className='text-white text-base mb-4 w-9/12'>Hello! I'm Oliver Queen. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
+                            <h6 className='about-subtitle'>NAME: <span className='about-subtitle-span'>Bruce Wayne</span></h6>
+                            <h6 className='about-subtitle'>DATE OF BIRTH: <span className='about-subtitle-span'>14 February 1995</span></h6>
+                            <h6 className='about-subtitle'>NATIONALITY: <span className='about-subtitle-span'>Bangladeshi</span></h6>
+                            <h6 className='about-subtitle'>ADDRESS: <span className='about-subtitle-span'>Khilkhet, Dhaka, Bangladesh</span></h6>
+                            <h6 className='about-subtitle'>PHONE: <span className='about-subtitle-span'>0124565565</span></h6>
+                            <h6 className='about-subtitle'>EMAIL: <span className='about-subtitle-span'>something@yo.com</span></h6>
+                        </div>
+                    </div>
+                    <div className='lg:w-11/12 mx-auto pl-6 lg:pl-14 mt-20 lg:mt-28 pb-24'>
+                        <h4 className='section-title text-4xl mb-14'>MY INTERESTS</h4>
+                        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-14 ml-7'>
+                            <div className='transition-all duration-300 relative'>
+                                <div data-aos='zoom-in' data-aos-duration='500' className='interest-item '>
+                                    <FontAwesomeIcon className='' icon={faMotorcycle} />
+                                </div> 
+                                <span className='hidden absolute mt-3'>Bike Riding</span>
+                            </div>
+                            <div className='transition-all duration-300 relative '>
+                                <div data-aos='zoom-in' data-aos-duration='500' className='interest-item '>
+                                <FontAwesomeIcon icon={faPlane} />
+                                </div> 
+                                <span className='hidden absolute mt-3 ml-2'>Traveling</span>
+                            </div>
+                            <div className='transition-all duration-300 relative '>
+                                <div data-aos='zoom-in' data-aos-duration='500' className='interest-item '>
+                                <FontAwesomeIcon icon={faPersonHiking} />
+                                </div> 
+                                <span className='hidden absolute mt-3 ml-4'>Hiking</span>
+                            </div>
+                            <div className='transition-all duration-300 relative '>
+                                <div data-aos='zoom-in' data-aos-duration='500' className='interest-item '>
+                                <FontAwesomeIcon icon={faCode} />
+                                </div> 
+                                <span className='hidden absolute mt-3 ml-4'>Coding</span>
+                            </div>
+                            <div className='transition-all duration-300 relative '>
+                                <div data-aos='zoom-in' data-aos-duration='500' className='interest-item '>
+                                <FontAwesomeIcon icon={faFilm} />
+                                </div> 
+                                <span className='hidden absolute mt-3 ml-4'>Movie</span>
+                            </div>
+                            <div className='transition-all duration-300 relative '>
+                                <div data-aos='zoom-in' data-aos-duration='500' className='interest-item '>
+                                <FontAwesomeIcon icon={faMusic} />
+                                </div> 
+                                <span className='hidden absolute mt-3 ml-5'>Music</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
         </div>
     );
 };

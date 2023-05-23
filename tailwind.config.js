@@ -8,9 +8,6 @@ export default {
     extend: {
       colors: {
         transparent: 'transparent',
-        black: '#000',
-        white: '#fff',
-        blue:'blue', // Change this to your desired background color
       },
   },
   plugins: [],

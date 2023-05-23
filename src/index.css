@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.about-subtitle{
+    @apply text-lg font-bold text-teal-500 leading-10;
+}
+.about-subtitle-span{
+    @apply font-normal text-white;
+}
+.menu-hover{
+    @apply hover:text-green-500 hover:scale-110;
+}
