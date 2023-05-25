@@ -11,3 +11,15 @@
 .menu-hover{
     @apply hover:text-green-500 hover:scale-110;
 }
+.education-title{
+    @apply text-3xl text-teal-500 font-bold; 
+}
+.education-subtitle{
+    @apply text-base text-white font-semibold; 
+}
+.education-des{
+    @apply text-white text-sm; 
+}
+.education-section-circle{
+    @apply w-10 h-10 bg-transparent border-2 border-teal-500 rounded-full flex items-center justify-center;
+}
