@@ -3,6 +3,7 @@ import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import About from "./components/About/About"
 import Education from "./components/Education/Education"
+import WorkExperience from "./components/WorkExperience/WorkExperience"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Outlet/>
       <About/>
       <Education/>
+      <WorkExperience/>
       <Footer/>
     </>
   )
