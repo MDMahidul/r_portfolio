@@ -23,3 +23,6 @@
 .education-section-circle{
     @apply w-10 h-10 bg-transparent border-2 border-teal-500 rounded-full flex items-center justify-center;
 }
+.skill-title{
+    @apply text-2xl text-white font-semibold;
+}
