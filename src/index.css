@@ -12,7 +12,7 @@
     @apply hover:text-green-500 hover:scale-110;
 }
 .education-title{
-    @apply text-3xl text-teal-500 font-bold; 
+    @apply lg:text-3xl text-2xl text-teal-500 font-bold; 
 }
 .education-subtitle{
     @apply text-base text-white font-semibold; 

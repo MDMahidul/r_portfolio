@@ -23,9 +23,9 @@ const Home = () => {
           enterFrom="translate-y-10"
           enterTo="translate-y-0"
         >
-          <div className="flex flex-col justify-center text-white md:pl-10 lg:pl-0 pl-4">
+          <div className="flex flex-col justify-center text-white md:pl-10 lg:pl-5 pl-4">
             <h1 className="lg:text-9xl text-7xl leading-tight">Hello!</h1>
-            <h2 className='lg:text-7xl text-4xl leading-tight'>I'm <span className='lg:text-7xl font-semibold'>Bruce Wayne</span></h2>
+            <h2 className='lg:text-7xl text-4xl leading-tight'>I'm <span className='lg:text-7xl font-semibold'>Rubel Ahmed</span></h2>
             <h4 className='text-2xl'>Web & Interface Designer</h4>
           </div>
         </Transition>

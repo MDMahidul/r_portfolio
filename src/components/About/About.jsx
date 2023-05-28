@@ -22,7 +22,7 @@ const About = () => {
         <div className='bg-zinc-800 pb-10'>
            <div className=' max-w-screen-xl  mx-auto'>
                 <div className="about-thum-area">
-                    <div className="grid lg:grid-cols-2 pt-44  md:pl-10 lg:pl-0 pl-6">
+                    <div className="grid lg:grid-cols-2 pt-44  md:pl-10 lg:pl-10 pl-6">
                         <div data-aos='fade-right'>
                             <div className='about-img' >
                                 <img className='lg:h-96 lg:w-[365px] h-[365px]' src={Propic} alt="" />
@@ -30,9 +30,9 @@ const About = () => {
                             <div className='resume-btn lg:ml-20 '><a className='hover:scale-105 transition-transform' href="#"><FontAwesomeIcon className='text-white mr-2'  icon={faDownload} />Download Resume</a></div>
                         </div>
                         <div  className='about-details mt-20 lg:mt-[-65px]' data-aos='fade-left'>
-                            <h2 className='section-title mb-4 text-5xl'>ABOUT ME</h2>
-                            <p className='text-white text-base mb-4 w-9/12'>Hello! I'm Oliver Queen. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
-                            <h6 className='about-subtitle'>NAME: <span className='about-subtitle-span'>Bruce Wayne</span></h6>
+                            <h2 className='section-title mb-4 lg:text-5xl text-4xl'>ABOUT ME</h2>
+                            <p className='text-white text-base mb-4 w-9/12'>Hello! I'm Rubel  Ahmed. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
+                            <h6 className='about-subtitle'>NAME: <span className='about-subtitle-span'>Rubel Ahmed</span></h6>
                             <h6 className='about-subtitle'>DATE OF BIRTH: <span className='about-subtitle-span'>14 February 1995</span></h6>
                             <h6 className='about-subtitle'>NATIONALITY: <span className='about-subtitle-span'>Bangladeshi</span></h6>
                             <h6 className='about-subtitle'>ADDRESS: <span className='about-subtitle-span'>Khilkhet, Dhaka, Bangladesh</span></h6>

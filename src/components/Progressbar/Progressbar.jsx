@@ -40,6 +40,14 @@ const Progressbar = () => {
         <span className="skill-title">CSS</span>
         <div className="skill-bar">
           <span className="skill-per css">
+            <span className="tooltip">75%</span>
+          </span>
+        </div>
+      </div>
+      <div className="skill-box">
+        <span className="skill-title">Wordpress</span>
+        <div className="skill-bar">
+          <span className="skill-per wordpress" >
             <span className="tooltip">70%</span>
           </span>
         </div>
@@ -48,7 +56,15 @@ const Progressbar = () => {
         <span className="skill-title">JS</span>
         <div className="skill-bar">
           <span className="skill-per js">
-            <span className="tooltip">65%</span>
+            <span className="tooltip">60%</span>
+          </span>
+        </div>
+      </div>
+      <div className="skill-box">
+        <span className="skill-title">Reactjs</span>
+        <div className="skill-bar">
+          <span className="skill-per reactjs" >
+            <span className="tooltip">60%</span>
           </span>
         </div>
       </div>
@@ -57,22 +73,6 @@ const Progressbar = () => {
         <div className="skill-bar">
           <span className="skill-per nodejs">
             <span className="tooltip">50%</span>
-          </span>
-        </div>
-      </div>
-      <div className="skill-box">
-        <span className="skill-title">Reactjs</span>
-        <div className="skill-bar">
-          <span className="skill-per reactjs" >
-            <span className="tooltip">65%</span>
-          </span>
-        </div>
-      </div>
-      <div className="skill-box">
-        <span className="skill-title">Wordpress</span>
-        <div className="skill-bar">
-          <span className="skill-per wordpress" >
-            <span className="tooltip">80%</span>
           </span>
         </div>
       </div>

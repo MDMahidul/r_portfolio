@@ -30,7 +30,7 @@ const Header = () => {
         <div>
 {/*  className={`fixed w-full flex items-center justify-between px-6 py-3 z-50 `}    */}        
 <nav className={`fixed top-0 w-full z-10 transition-all ease-out duration-300 ${
-        navbarBg !== 'transparent' ? 'bg-gradient-to-r from-teal-500 to-cyan-300 shadow-md ' : 'p-2'}`}>
+        navbarBg !== 'transparent' ? 'bg-gradient-to-r from-teal-500 to-cyan-300 shadow-md ' : 'lg:py-2 py-4'}`}>
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
    <ul className="max-w-screen-xl flex flex-wrap gap-6 items-center ">
     <li className='hover:scale-110'> <a href="#"> <FontAwesomeIcon className='text-white' size="lg" icon={faGithub} /> </a></li>

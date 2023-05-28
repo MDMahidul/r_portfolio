@@ -6,8 +6,8 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 const Education = () => {
     return (
         <div className=' bg-zinc-700 pb-20'>
-            <div className='flex flex-col items-center pt-28 pb-10'>
-                <h1 className='section-title text-5xl'>Education</h1>
+            <div className='flex flex-col px-7 lg:items-center pt-28 pb-10'>
+                <h1 className='section-title lg:text-5xl text-4xl'>Education</h1>
             </div>
             <div className='transition-all duration-300 flex flex-col items-center mt-14'>
                 <div className='graduation-hat'>
