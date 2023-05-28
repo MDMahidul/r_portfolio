@@ -26,3 +26,6 @@
 .skill-title{
     @apply text-2xl text-white font-semibold;
 }
+/* .port-meta{
+   @apply absolute bottom-32 left-10 text-left transition-opacity duration-500 opacity-0;
+} */

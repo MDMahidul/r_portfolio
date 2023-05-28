@@ -5,6 +5,7 @@ import About from "./components/About/About"
 import Education from "./components/Education/Education"
 import WorkExperience from "./components/WorkExperience/WorkExperience"
 import Skills from "./components/Skills/Skills"
+import MyWork from "./components/MyWork/MyWork"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Education/>
       <WorkExperience/>
       <Skills/>
+      <MyWork/>
       <Footer/>
     </>
   )
