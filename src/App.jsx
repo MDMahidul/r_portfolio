@@ -6,9 +6,14 @@ import Education from "./components/Education/Education"
 import WorkExperience from "./components/WorkExperience/WorkExperience"
 import Skills from "./components/Skills/Skills"
 import MyWork from "./components/MyWork/MyWork"
+import Testimonials from "./components/Testimonials/Testimonials"
+import HireMe from "./components/HireMe/HireMe"
+import ContactForm from "./components/ContactForm/ContactForm"
+import { useLoaderData } from 'react-router-dom';
 
 
 function App() {
+  const testimonials = useLoaderData();
 
   return (
     <>
@@ -19,6 +24,9 @@ function App() {
       <WorkExperience/>
       <Skills/>
       <MyWork/>
+      <Testimonials/>
+      <HireMe/>
+      <ContactForm/>
       <Footer/>
     </>
   )

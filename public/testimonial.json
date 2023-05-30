@@ -1,0 +1,27 @@
+ [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "image": "./clients/m1.webp",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut semper ex, sed fermentum elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec dapibus turpis vitae mauris faucibus, at mattis mauris cursus."
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "image": "./clients/f1.webp",
+        "comment": "Vestibulum tincidunt dapibus urna, nec dapibus purus vehicula non. Morbi tincidunt faucibus purus, eget euismod justo aliquet ut. Quisque dapibus metus vel pharetra rutrum. Aliquam at aliquet velit."
+      },
+      {
+        "id": 3,
+        "name": "Mike Johnson",
+        "image": "./clients/m2.webp",
+        "comment": "Nulla cursus sapien a ligula tristique, in consequat est blandit. Integer faucibus magna sit amet iaculis bibendum. In tincidunt justo a mauris efficitur, sit amet lobortis neque maximus."
+      },
+      {
+        "id": 4,
+        "name": "Marie Clinton",
+        "image": "./clients/f2.webp",
+        "comment": "Nulla cursus sapien a ligula tristique, in consequat est blandit. Integer faucibus magna sit amet iaculis bibendum. In tincidunt justo a mauris efficitur, sit amet lobortis neque maximus."
+      }
+    ]
+  

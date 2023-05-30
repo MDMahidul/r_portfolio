@@ -22,7 +22,7 @@ const About = () => {
         <div className='bg-zinc-800 pb-10'>
            <div className=' max-w-screen-xl  mx-auto'>
                 <div className="about-thum-area">
-                    <div className="grid lg:grid-cols-2 pt-44  md:pl-10 lg:pl-10 pl-6">
+                    <div className="grid lg:grid-cols-2 pt-44  md:pl-10 lg:pl-10 px-4">
                         <div data-aos='fade-right'>
                             <div className='about-img' >
                                 <img className='lg:h-96 lg:w-[365px] h-[365px]' src={Propic} alt="" />
