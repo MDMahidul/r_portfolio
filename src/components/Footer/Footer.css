@@ -1,0 +1,15 @@
+.footer-link {
+    background-color: #313741;
+    border-radius: 50%;
+    color: #02cfb4;
+    font-size: 25px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    vertical-align: middle;
+    padding: 15px;
+}
+.footer-link:hover {
+    background-color: #02cfb4;
+    color: #22252c;
+}

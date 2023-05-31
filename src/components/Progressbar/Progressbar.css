@@ -25,23 +25,23 @@
 }
 .skill-per.css{
     width: 75%;
-    animation-delay:0.7s ;
+    animation-delay:0.5s ;
 }
 .skill-per.js{
     width: 60%;
-    animation-delay:0.7s ;
+    animation-delay:0.5s ;
 }
 .skill-per.nodejs{
     width: 50%;
-    animation-delay:0.8s ;
+    animation-delay:0.5s ;
 }
 .skill-per.reactjs{
     width: 60%;
-    animation-delay:0.8s ;
+    animation-delay:0.5s ;
 }
 .skill-per.wordpress{
     width: 70%;
-    animation-delay:0.9s ;
+    animation-delay:0.5s ;
 }
 
 @keyframes progress{

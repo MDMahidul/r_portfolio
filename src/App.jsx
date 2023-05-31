@@ -10,6 +10,7 @@ import Testimonials from "./components/Testimonials/Testimonials"
 import HireMe from "./components/HireMe/HireMe"
 import ContactForm from "./components/ContactForm/ContactForm"
 import { useLoaderData } from 'react-router-dom';
+import GoToTopButton from "./components/GoToTopButton/GoToTopButton"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Header/>
       <Outlet/>
       <About/>
+      <GoToTopButton/>
       <Education/>
       <WorkExperience/>
       <Skills/>

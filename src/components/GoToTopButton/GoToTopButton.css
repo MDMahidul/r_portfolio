@@ -1,0 +1,5 @@
+.goup-btn{
+    box-shadow: 0 0 20px rgba(22, 213, 156, 0.7);
+    background: -webkit-gradient(linear, left top, right top, from(#17d396), to(#07f7f7));
+    background: linear-gradient(to right, #17d396, #07f7f7);
+}
