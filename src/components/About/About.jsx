@@ -1,9 +1,11 @@
 import React,{useState,useEffect} from 'react';
 import Propic from '/pro-pic.jpg';
+import Ruebl  from '/Rubel.jpg'
 import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload,faMotorcycle,faPlane,faPersonHiking,faCode,faFilm,faMusic } from '@fortawesome/free-solid-svg-icons';
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
 
 const About = () => {
    /*  const [isPageLoaded, setPageLoaded] = useState(false); */
@@ -25,19 +27,18 @@ const About = () => {
                     <div className="grid lg:grid-cols-2 pt-44  md:pl-10 lg:pl-10 px-4">
                         <div data-aos='fade-right'>
                             <div className='about-img' >
-                                <img className='lg:h-96 lg:w-[365px] h-[365px]' src={Propic} alt="" />
+                                <img className='lg:h-96' src={Ruebl} alt="" /> 
                             </div>
-                            <div className='resume-btn lg:ml-20 '><a className='hover:scale-105 transition-transform' href="#"><FontAwesomeIcon className='text-white mr-2'  icon={faDownload} />Download Resume</a></div>
+                            <div className='resume-btn lg:ml-20 '><Link target='_blank' className='hover:scale-105 transition-transform' to="https://drive.google.com/file/d/1UZ9ES-6I8cJWXsq-_KoJ42FALLK7kGV8/view?usp=sharing"><FontAwesomeIcon className='text-white mr-2'  icon={faDownload} />Download Resume</Link></div>
                         </div>
                         <div  className='about-details mt-20 lg:mt-[-65px]' data-aos='fade-left'>
                             <h2 className='section-title mb-4 lg:text-5xl text-4xl'>ABOUT ME</h2>
-                            <p className='text-white text-base mb-4 w-9/12'>Hello! I'm Rubel  Ahmed. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
+                            <p className='text-white text-base mb-4 w-9/12'>Hello! I'm Rubel  Ahmed. Web Developer with over 5 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Wordpress. Strong background in management and leadership.</p>
                             <h6 className='about-subtitle'>NAME: <span className='about-subtitle-span'>Rubel Ahmed</span></h6>
-                            <h6 className='about-subtitle'>DATE OF BIRTH: <span className='about-subtitle-span'>14 February 1995</span></h6>
                             <h6 className='about-subtitle'>NATIONALITY: <span className='about-subtitle-span'>Bangladeshi</span></h6>
                             <h6 className='about-subtitle'>ADDRESS: <span className='about-subtitle-span'>Khilkhet, Dhaka, Bangladesh</span></h6>
-                            <h6 className='about-subtitle'>PHONE: <span className='about-subtitle-span'>0124565565</span></h6>
-                            <h6 className='about-subtitle'>EMAIL: <span className='about-subtitle-span'>something@yo.com</span></h6>
+                            <h6 className='about-subtitle'>PHONE: <span className='about-subtitle-span'><a href="tel:+88 01309-081617">+88 01309-081617</a></span></h6>
+                            <h6 className='about-subtitle'>EMAIL: <span className='about-subtitle-span'><a href="mailto:rubelahmed.rhr@gmail.com">rubelahmed.rhr@gmail.com</a></span></h6>
                         </div>
                     </div>
                     <div className='lg:w-11/12 mx-auto pl-6 lg:pl-14 mt-20 lg:mt-28 pb-24'>

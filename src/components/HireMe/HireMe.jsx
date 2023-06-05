@@ -9,7 +9,7 @@ const HireMe = () => {
   return (
     <div className="bg-teal-500">
       <div className="max-w-screen-xl  mx-auto py-24 px-7">
-        <div className="text-center pb-10" data-aos="zoom-in">
+        <div className="text-center pb-10" data-aos="fade-right">
           <FontAwesomeIcon className="text-7xl" icon={faPaperPlane} />
         </div>
         <div className="flex justify-evenly text-zinc-800"  data-aos="fade-right">

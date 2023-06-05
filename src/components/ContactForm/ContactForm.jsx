@@ -23,7 +23,7 @@ const ContactForm = () => {
                 <h1 className='section-title lg:text-5xl text-4xl'>CONTACT ME</h1>
             </div>
             <div className='max-w-screen-xl  mx-auto'>
-            <form onSubmit={handleSubmit} className='pb-10'>
+            <form onSubmit={handleSubmit} className='pb-10 px-7'>
                 <div className="grid md:grid-cols-2 md:gap-6">
                     <div className="relative z-0 w-full mb-6 group">
                         <input type="text" name="floating_first_name" id="floating_first_name" className="contact-input-field peer" placeholder=" " required />

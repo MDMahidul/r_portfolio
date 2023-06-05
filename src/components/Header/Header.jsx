@@ -2,6 +2,7 @@ import React, { useEffect,useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub,faTwitter,faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faBarsStaggered,faXmark } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [navbarBg, setNavbarBg] = useState('transparent');
@@ -33,9 +34,9 @@ const Header = () => {
         navbarBg !== 'transparent' ? 'bg-gradient-to-r from-teal-500 to-cyan-300 shadow-md ' : 'lg:py-2 py-4'}`}>
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
    <ul className="max-w-screen-xl flex flex-wrap gap-6 items-center ">
-    <li className='hover:scale-110'> <a href="#"> <FontAwesomeIcon className='text-white' size="lg" icon={faGithub} /> </a></li>
-    <li className='hover:scale-110'> <a href="#"> <FontAwesomeIcon className='text-white' size="lg" icon={faTwitter} /> </a> </li>
-    <li className='hover:scale-110'><a href="#"> <FontAwesomeIcon className='text-white' size="lg" icon={faLinkedinIn} /> </a> </li>
+    <li className='hover:scale-110'> <Link target="_blank" to="https://github.com/rubelahmed-aiubian"> <FontAwesomeIcon className='text-white' size="lg" icon={faGithub} /> </Link></li>
+    <li className='hover:scale-110'> <Link target="_blank" to="https://twitter.com/RubelAh06856444"> <FontAwesomeIcon className='text-white' size="lg" icon={faTwitter} /> </Link> </li>
+    <li className='hover:scale-110'><Link target="_blank" to="https://www.linkedin.com/in/rubel-ahmed-7ba94b18b"> <FontAwesomeIcon className='text-white' size="lg" icon={faLinkedinIn} /> </Link> </li>
    </ul>
     <button data-collapse-toggle="navbar-hamburger" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg    dark:text-gray-400 " aria-controls="navbar-hamburger" aria-expanded="false" onClick={handleMenuToggle}>
     <FontAwesomeIcon className='text-white hover:scale-110' size="2x" icon={faBarsStaggered} />
