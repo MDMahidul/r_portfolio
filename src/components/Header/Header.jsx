@@ -1,7 +1,7 @@
 import React, { useEffect,useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub,faTwitter,faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faBarsStaggered,faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faBarsStaggered,faHome,faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -34,6 +34,7 @@ const Header = () => {
         navbarBg !== 'transparent' ? 'bg-gradient-to-r from-teal-500 to-cyan-300 shadow-md ' : 'lg:py-2 py-4'}`}>
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
    <ul className="max-w-screen-xl flex flex-wrap gap-6 items-center ">
+    <li className='hover:scale-110'> <Link  to="/"> <FontAwesomeIcon className='text-white' size="lg" icon={faHome} /> </Link></li>
     <li className='hover:scale-110'> <Link target="_blank" to="https://github.com/rubelahmed-aiubian"> <FontAwesomeIcon className='text-white' size="lg" icon={faGithub} /> </Link></li>
     <li className='hover:scale-110'> <Link target="_blank" to="https://twitter.com/RubelAh06856444"> <FontAwesomeIcon className='text-white' size="lg" icon={faTwitter} /> </Link> </li>
     <li className='hover:scale-110'><Link target="_blank" to="https://www.linkedin.com/in/rubel-ahmed-7ba94b18b"> <FontAwesomeIcon className='text-white' size="lg" icon={faLinkedinIn} /> </Link> </li>
@@ -45,11 +46,10 @@ const Header = () => {
             <div  className='text-right'><button  onClick={()=>setShowMenu(false)}><FontAwesomeIcon className='menu-hover'  size='4x' icon={faXmark} /></button></div>
             <div>
             <ul className='flex flex-col items-center justify-center h-screen text-3xl gap-y-8 font-semibold'>
-              <li className='menu-hover'><a href="#">Home</a></li>
-              <li className='menu-hover'><a href="#">About</a></li>
-              <li className='menu-hover'><a href="#">Projects</a></li>
-              <li className='menu-hover'><a href="#">Testimonials</a></li>
-              <li className='menu-hover'><a href="#">Contact</a></li>
+              <li className='menu-hover' onClick={handleMenuToggle}><Link to="/">Home</Link></li>
+              <li className='menu-hover' onClick={handleMenuToggle}> <Link to="/about">About</Link></li>
+              <li className='menu-hover' onClick={handleMenuToggle}><Link to="/projects">Projects</Link></li>
+              <li className='menu-hover' onClick={handleMenuToggle}><Link to="/contact">Contact</Link></li>
             </ul>
             </div>
     </div>

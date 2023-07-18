@@ -1,5 +1,14 @@
 import React,{useState,useEffect} from 'react';
 import { Transition } from '@headlessui/react';
+import About from '../About/About';
+import Education from '../Education/Education';
+import WorkExperience from '../WorkExperience/WorkExperience';
+import Skills from '../Skills/Skills';
+import MyWork from '../MyWork/MyWork';
+import Testimonials from '../Testimonials/Testimonials';
+import HireMe from '../HireMe/HireMe';
+import ContactForm from '../ContactForm/ContactForm';
+import GoToTopButton from '../GoToTopButton/GoToTopButton';
 
 const Home = () => {
     const [isPageLoaded, setPageLoaded] = useState(false);
@@ -30,6 +39,15 @@ const Home = () => {
           </div>
         </Transition>
       </div>
+      <About/>
+      <Education/>
+      <WorkExperience/>
+      <Skills/>
+      <MyWork/>
+      <Testimonials/>
+      <HireMe/>
+      <ContactForm/>
+      <GoToTopButton/>
     </div>
   );
 };

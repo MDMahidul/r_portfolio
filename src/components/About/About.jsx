@@ -27,7 +27,7 @@ const About = () => {
                     <div className="grid lg:grid-cols-2 pt-44  md:pl-10 lg:pl-10 px-4">
                         <div data-aos='fade-right'>
                             <div className='about-img' >
-                                <img className='lg:h-96' src={Ruebl} alt="" /> 
+                                <img className='h-96' src={Propic} alt="" /> 
                             </div>
                             <div className='resume-btn lg:ml-20 '><Link target='_blank' className='hover:scale-105 transition-transform' to="https://drive.google.com/file/d/1UZ9ES-6I8cJWXsq-_KoJ42FALLK7kGV8/view?usp=sharing"><FontAwesomeIcon className='text-white mr-2'  icon={faDownload} />Download Resume</Link></div>
                         </div>

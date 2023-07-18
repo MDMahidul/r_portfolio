@@ -1,7 +1,7 @@
 .about-img {
-    height: 385px;
+ 
     position: relative;
-    width: 300px;
+
     z-index: 1;
 }
  .about-img::after {

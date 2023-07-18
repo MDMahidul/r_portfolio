@@ -20,15 +20,6 @@ function App() {
     <>
       <Header/>
       <Outlet/>
-      <About/>
-      <GoToTopButton/>
-      <Education/>
-      <WorkExperience/>
-      <Skills/>
-      <MyWork/>
-      <Testimonials/>
-      <HireMe/>
-      <ContactForm/>
       <Footer/>
     </>
   )
